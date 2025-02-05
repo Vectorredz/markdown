@@ -1,0 +1,38 @@
+// Custom settings.json for markdown
+
+{
+ "editor.inlineCompletionsAccessibilityVerbose": true,
+    "editor.tabCompletion": "on",
+    "editor.autoClosingBrackets": "always",
+    "editor.autoClosingComments": "always",
+    "editor.autoClosingQuotes": "always",
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.snippetSuggestions": "inline",
+    "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+    },
+
+    "emmet.excludeLanguages": [],
+    "emmet.showSuggestionsAsSnippets": true,
+    "emmet.useInlineCompletions": true,
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.showExpandedAbbreviation": "never",
+        "emmet.includeLanguages": {
+            "html": "html",
+            "javascript": "javascriptreact",
+            "markdown": "html"
+        },
+        
+    "[markdown]": {
+        "editor.quickSuggestions": {
+            "comments": "on",
+            "strings": "on",
+            "other": "on"
+        }
+    },
+    "markdown.preview.scrollEditorWithPreview": false,
+    "markdown.preview.scrollPreviewWithEditor": false,
+    "markdown.extension.completion.enabled": true,
+}
